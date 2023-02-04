@@ -1,3 +1,112 @@
+body {
+    border: 5px;
+    border-style: solid;
+    border-color: orange;
+    margin-bottom: 0px;
+}
+
 h1 {
     text-align: center;
+    justify-content: center;
+    border: 5px;
+    border-style: solid;
+    border-color: blue;
 }
+
+section#top {
+
+}
+
+section#middle {
+    display: flex;
+    border: 5px;
+    border-style: solid;
+    border-color: yellow;
+    margin-bottom: 10%;
+    align-items: baseline;
+}
+
+section#middle div#sidebar {
+    display: flex;
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    border-color: brown;
+    overflow: auto;
+    width: 18%;
+    margin-bottom: 0px;
+    height:100%;
+}
+
+section#middle div#top {
+    display: flex;
+    flex-flow: column wrap;
+    flex: auto;
+    text-align: center;
+    justify-content: space-around;
+    border: 5px;
+    border-style: solid;
+    border-color: gray;
+    width: 80%;
+}
+
+section#middle div#top div {
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    overflow: auto;
+    height: 200px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*
+
+section#sidebar {
+    width: 140px;
+}
+
+section#top {
+    /*  flex container  
+    flex: 200px;
+    overflow: hidden;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+section#top div {
+    /*  flex children   
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-flow: row wrap;
+    border: 5px;
+    border-style: solid;
+    overflow: auto;
+    height: 200px;
+
+
+    /*
+    overflow: auto;
+    width: 20%;
+    top: 0px;
+    background-color: aqua;
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    min-height: min-content;
+    
+
+}
+*/
